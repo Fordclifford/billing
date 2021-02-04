@@ -1054,6 +1054,8 @@ $LANG = array(
     'invalid_expiry' => 'The expiration date is not valid.',
     'invalid_cvv' => 'The CVV is not valid.',
     'cost' => 'Cost',
+    'number_of_users' => 'Number of Users',
+    'number_of_assets' => 'Number of Assets',
     'create_invoice_for_sample' => 'Note: create your first invoice to see a preview here.',
 
     // User Permissions

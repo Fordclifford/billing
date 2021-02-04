@@ -394,6 +394,7 @@ class ConfideSetupUsersTable extends Migration {
 
             $t->string('product_key');
             $t->text('notes');
+         
             $t->decimal('cost', 13, 2);
             $t->decimal('qty', 13, 2)->nullable();
 

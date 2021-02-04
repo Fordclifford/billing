@@ -30,6 +30,8 @@ class ProductRepository extends BaseRepository
                     'products.product_key',
                     'products.notes',
                     'products.cost',
+                    'products.number_of_users',
+                    'products.number_of_assets',
                     'tax_rates.name as tax_name',
                     'tax_rates.rate as tax_rate',
                     'products.deleted_at',

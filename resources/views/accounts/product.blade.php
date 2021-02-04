@@ -22,6 +22,8 @@
   {!! Former::text('product_key')->label('texts.product') !!}
   {!! Former::textarea('notes')->rows(6) !!}
   {!! Former::text('cost') !!}
+  {!! Former::text('number_of_assets') !!}
+  {!! Former::text('number_of_users') !!}
 
   @if ($account->invoice_item_taxes)
       {!! Former::select('default_tax_rate_id')

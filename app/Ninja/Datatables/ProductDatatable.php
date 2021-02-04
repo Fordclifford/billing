@@ -8,7 +8,7 @@ use Str;
 class ProductDatatable extends EntityDatatable
 {
     public $entityType = ENTITY_PRODUCT;
-    public $sortCol = 4;
+    public $sortCol = 6;
 
     public function columns()
     {
@@ -29,6 +29,18 @@ class ProductDatatable extends EntityDatatable
                 'cost',
                 function ($model) {
                     return Utils::formatMoney($model->cost);
+                }
+            ],
+            [
+                'number_of_users',
+                function ($model) {
+                    return Utils::formatMoney($model->number_of_users);
+                }
+            ],
+            [
+                'number_of_assets',
+                function ($model) {
+                    return Utils::formatMoney($model->number_of_assets);
                 }
             ],
             [

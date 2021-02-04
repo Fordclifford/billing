@@ -28,6 +28,8 @@ class Product extends EntityModel
         'notes',
         'cost',
         'qty',
+        'number_of_assets',
+        'number_of_users',
         'default_tax_rate_id',
     ];
 

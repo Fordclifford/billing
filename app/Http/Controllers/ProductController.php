@@ -136,6 +136,8 @@ class ProductController extends BaseController
         $product->product_key = trim(Input::get('product_key'));
         $product->notes = trim(Input::get('notes'));
         $product->cost = trim(Input::get('cost'));
+        $product->number_of_assets = trim(Input::get('number_of_assets'));
+        $product->number_of_users= trim(Input::get('number_of_assets'));
         $product->default_tax_rate_id = Input::get('default_tax_rate_id');
 
         $product->save();
