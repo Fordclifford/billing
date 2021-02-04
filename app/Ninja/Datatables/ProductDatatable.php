@@ -34,13 +34,13 @@ class ProductDatatable extends EntityDatatable
             [
                 'number_of_users',
                 function ($model) {
-                    return Utils::formatMoney($model->number_of_users);
+                    return nl2br(Str::limit($model->number_of_users));
                 }
             ],
             [
                 'number_of_assets',
                 function ($model) {
-                    return Utils::formatMoney($model->number_of_assets);
+                    return nl2br(Str::limit($model->number_of_assets));
                 }
             ],
             [
